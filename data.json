@@ -1,0 +1,45 @@
+{
+  "habitData": {},
+  "todoData": {
+    "2026-W12": [
+      {
+        "id": 1,
+        "cat": "学術",
+        "text": "研究テーマを一文で書く",
+        "done": false
+      },
+      {
+        "id": 2,
+        "cat": "学術",
+        "text": "目標学会の抄録締め切りを調べる",
+        "done": false
+      },
+      {
+        "id": 3,
+        "cat": "発信",
+        "text": "Twitter固定ツイートを更新する",
+        "done": false
+      },
+      {
+        "id": 4,
+        "cat": "発信",
+        "text": "Note最初の記事タイトルを決める",
+        "done": false
+      },
+      {
+        "id": 5,
+        "cat": "睡眠",
+        "text": "今夜23:00に消灯する",
+        "done": false
+      },
+      {
+        "id": 6,
+        "cat": "英語",
+        "text": "Duolingoインストール・今日5分やる",
+        "done": false
+      }
+    ]
+  },
+  "pdcaData": {},
+  "roadmapData": {}
+}
