@@ -767,7 +767,7 @@ async function loadFromGitHub() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const json = await res.json();
     currentSHA = json.sha;
-    const content = JSON.parse(atob(json.content.replace(/\n/g, '')));
+    const content = JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, '')))));
     if (content.habitData)   localStorage.setItem('habitData',   JSON.stringify(content.habitData));
     if (content.todoData)    localStorage.setItem('todoData',    JSON.stringify(content.todoData));
     if (content.pdcaData)    localStorage.setItem('pdcaData',    JSON.stringify(content.pdcaData));
